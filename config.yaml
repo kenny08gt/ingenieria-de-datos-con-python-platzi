@@ -1,0 +1,13 @@
+news_sites:
+  lahora:
+    url: https://lahora.gt
+    queries:
+      homepage_article_links: '.entry-title.td-module-title a'
+      article_body: '.td-post-content'
+      article_title: 'h1.entry-title'
+  elperiodico:
+    url: https://elperiodico.com.gt
+    queries:
+      homepage_article_links: '.elementor-text-editor.elementor-clearfix a'
+      article_body: '.post-text'
+      article_title: '.post-title-big'
